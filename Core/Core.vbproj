@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14BEE32F-54C7-4688-A6DD-9FABD689B198}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Artifice.My.MyApplication</StartupObject>
+    <RootNamespace>Artifice</RootNamespace>
+    <AssemblyName>Artifice</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Artifice.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Artifice.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Artifice.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Artifice.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Artifice.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Artifice.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="clipper_library">
+      <HintPath>..\..\..\ComixMaster_v1\ComixMaster\bin\Debug\clipper_library.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio">
+      <HintPath>..\packages\NAudio.1.7.3\lib\net35\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutArtifice.Designer.vb">
+      <DependentUpon>AboutArtifice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutArtifice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedColorPicker.Designer.vb">
+      <DependentUpon>AdvancedColorPicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedColorPicker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base Classes\LerpableColor.vb" />
+    <Compile Include="Base Classes\LerpableInteger.vb" />
+    <Compile Include="Base Classes\LerpableSingle.vb" />
+    <Compile Include="Base Classes\PropertyChanger.vb" />
+    <Compile Include="Base Classes\ArtificeColor.vb" />
+    <Compile Include="ChildSelector.Designer.vb">
+      <DependentUpon>ChildSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChildSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\AdvancedColor.vb" />
+    <Compile Include="Designer Classes\AnimationContext.vb" />
+    <Compile Include="Designer Classes\Custom Controls\ColorSurface.Designer.vb">
+      <DependentUpon>ColorSurface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\ColorSurface.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\Designer.vb" />
+    <Compile Include="Designer Classes\Custom Controls\DesignerControlBase.Designer.vb">
+      <DependentUpon>DesignerControlBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\DesignerControlBase.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\DoubleBufferPanel.Designer.vb">
+      <DependentUpon>DoubleBufferPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\DoubleBufferPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\ExportAudioContext.vb" />
+    <Compile Include="Designer Classes\Extensions.vb" />
+    <Compile Include="Designer Classes\FontFamilyEditor.vb" />
+    <Compile Include="Designer Classes\Custom Controls\HorizontalColorSlider.Designer.vb">
+      <DependentUpon>HorizontalColorSlider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\HorizontalColorSlider.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\ImageCacheItem.vb" />
+    <Compile Include="Designer Classes\RenderContext.vb" />
+    <Compile Include="Designer Classes\Custom Controls\SceneSurface.Designer.vb">
+      <DependentUpon>SceneSurface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\SceneSurface.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\SwatchButton.Designer.vb">
+      <DependentUpon>SwatchButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\SwatchButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\Timeline.Designer.vb">
+      <DependentUpon>Timeline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\Timeline.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\ToolStripBindableButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\ToolStripColorButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer Classes\Tools\ArrowTool.vb" />
+    <Compile Include="Designer Classes\Tools\AudioTool.vb" />
+    <Compile Include="Designer Classes\Tools\EllipseTool.vb" />
+    <Compile Include="Designer Classes\Tools\ImageTool.vb" />
+    <Compile Include="Designer Classes\Tools\PencilTool.vb" />
+    <Compile Include="Designer Classes\Tools\PolygonTool.vb" />
+    <Compile Include="Designer Classes\Tools\RectangleTool.vb" />
+    <Compile Include="Designer Classes\Tools\SubSceneTool.vb" />
+    <Compile Include="Designer Classes\Tools\TextTool.vb" />
+    <Compile Include="Designer Classes\Tools\ToolBase.vb" />
+    <Compile Include="Designer Classes\Tools\ToolMouseEvent.vb" />
+    <Compile Include="Designer Classes\Undo\ObjectAddedUndo.vb" />
+    <Compile Include="Designer Classes\Undo\ObjectMoveUndo.vb" />
+    <Compile Include="Designer Classes\Undo\ObjectRemovedUndo.vb" />
+    <Compile Include="Designer Classes\Undo\PropertyChangeUndo.vb" />
+    <Compile Include="Designer Classes\Undo\UndoBase.vb" />
+    <Compile Include="Designer Classes\Undo\UndoBatch.vb" />
+    <Compile Include="Designer Classes\Undo\VectorPathChangeUndo.vb" />
+    <Compile Include="Designer Classes\Custom Controls\VerticalColorSlider.Designer.vb">
+      <DependentUpon>VerticalColorSlider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designer Classes\Custom Controls\VerticalColorSlider.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.vb">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Base Classes\Lerpable.vb" />
+    <Compile Include="NewProject.Designer.vb">
+      <DependentUpon>NewProject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artifice DOM\Effects\DropShadow.vb" />
+    <Compile Include="Artifice DOM\Effects\EffectBase.vb" />
+    <Compile Include="Artifice DOM\Effects\PointSquiggle.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\Group.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\KeyFrame.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\Layer.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\LayerGroup.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\RasterImage.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\Scene.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\Sound.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\Subscene.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\Text.vb" />
+    <Compile Include="Artifice DOM\ArtificeLayerBase.vb" />
+    <Compile Include="Artifice DOM\ArtificeMoveable.vb" />
+    <Compile Include="Artifice DOM\ArtificeObject.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\Project.vb" />
+    <Compile Include="Artifice DOM\ArtificeTransformable.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\VectorObject.vb" />
+    <Compile Include="Artifice DOM\Artifice Objects\VectorPoint.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutArtifice.resx">
+      <DependentUpon>AboutArtifice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvancedColorPicker.resx">
+      <DependentUpon>AdvancedColorPicker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildSelector.resx">
+      <DependentUpon>ChildSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewProject.resx">
+      <DependentUpon>NewProject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\1457983295_elipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1457983304_rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458085866_layer_shade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458155847_Storage__Content_Delivery_Amazon_S3_Objects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458155854_3d_objects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1429824411_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_closed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458166421_scene.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458166506_Play1Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458166511_PauseNormalRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458170289_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458698029_stock_effects-object-colorize-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458760820_044_Repeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458760892_Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458838484_device-volume-loudspeaker-speaker-up-glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458838523_device-volume-loudspeaker-speaker-up-glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458847140_Streamline-39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DropShadow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Keyframe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458847973_Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458847978_Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458847992_Rewind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArtificeIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458851107_size_width.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458851113_size_height.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458853523_editor-pencil-pen-edit-write-glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459810329_layer-shape-polygon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459882203_text-font.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459975809_085_Movie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459985420_lock_small_unlocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459985428_lock_small_locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459985924_icon-22-eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459985927_icon-21-eye-hidden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1460047708_Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1460610082_bezier.png" />
+    <None Include="Resources\checkerboard.png" />
+    <None Include="Resources\CenterStageVertictal.png" />
+    <None Include="Resources\CenterStageHorizontal.png" />
+    <None Include="Resources\1460221071_shape_align_right.png" />
+    <None Include="Resources\1460221066_shape_align_top.png" />
+    <None Include="Resources\1460221048_shape_align_left.png" />
+    <None Include="Resources\1460221043_shape_align_middle.png" />
+    <None Include="Resources\1460221039_shape_align_bottom.png" />
+    <None Include="Resources\1460221008_shape_align_center.png" />
+    <None Include="Resources\1460106209_shape_group.png" />
+    <None Include="Resources\1460074072_Magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1460069251_cow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RotateCursor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SplashBanner.png" />
+    <None Include="Resources\Splash.png" />
+    <None Include="Resources\Logo.png" />
+    <Content Include="Resources\Rotate.cur" />
+    <None Include="Resources\ArtificeThStampede.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

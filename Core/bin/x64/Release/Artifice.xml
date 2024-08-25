@@ -1,0 +1,2747 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Artifice
+</name>
+</assembly>
+<members>
+<member name="T:Artifice.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.AlignBottom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.AlignHorizontalCenter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.AlignLeft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.AlignRight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.AlignTop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.AlignVerticalCenter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Audio">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Audio_Large">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.CenterStageHorizontal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.CenterStageVertictal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Checkerboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.cut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.DropShadow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Effect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Ellipse">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.FolderClosed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.FolderOpen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.GenericObject">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Group">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Height">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Hidden">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Keyframe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Layer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Locked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.paste">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Pause">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Pencil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Play">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Point">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.PointEdit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Polygon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Rectangle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Remove">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Repeat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Rewind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Rotate">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Scene">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.SplashBanner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Subscene">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Text">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Unlocked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Artifice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.VectorObject">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Visible">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Width">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Artifice.My.Resources.Resources.Zoom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Artifice.AboutArtifice">
+ <summary>
+ The simple About Artifice dialog box
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.AdvancedColorPicker">
+ <summary>
+ An Adobe Photoshop-style Color Picker Dialog
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.AdvancedColorPicker.Color">
+ <summary>
+ The currently-selected color
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.LerpableColor">
+ <summary>
+ Represents an individual lerpable Color value
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.LerpableColor.#ctor">
+ <summary>
+ Constructs a new instance of ArtificeColor, defaulted to Black
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.LerpableColor.#ctor(System.Drawing.Color)">
+ <summary>
+ Contstructs as new instance of ArtificeColor using the provided System.Drawing.Color
+ </summary>
+ <param name="c">The color to initialize this ArtificeColor with</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.LerpableColorEditor">
+ <summary>
+ Defines the editing behaviours of ArtificeColor objects in PropertyGrid controls
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.LerpableInteger">
+ <summary>
+ Represents an individual lerpable Integer value
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.LerpableSingle">
+ <summary>
+ Represents an individual lerpable Single value
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.LerpableSingleConverter">
+ <summary>
+ Handles conversion of LerpableSingles, used by the PropertyGrid control
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.PropertyChanger">
+ <summary>
+ Provides the framework for firing the PropertyChangedEventHandler for any properties that wish to do so
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.ArtificeColor">
+ <summary>
+ Represents an alpha-blended colour amount
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ArtificeColor.Color">
+ <summary>
+ A System.Drawing.Color instance of this color
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeColor.Alpha">
+ <summary>
+ The alpha channel of this color
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeColor.Red">
+ <summary>
+ The red channel of this color
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeColor.Green">
+ <summary>
+ The green channel of this color
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeColor.Blue">
+ <summary>
+ The blue channel of this color
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeColor.#ctor(System.Drawing.Color)">
+ <summary>
+ Creates a new instance of ArtificeColor using the given System.Drawing.Color
+ </summary>
+ <param name="c"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeColor.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Creates a new instance of ArtificeColor using the given color components
+ </summary>
+ <param name="a">The alpha channel value</param>
+ <param name="r">The red channel value</param>
+ <param name="g">The green channel value</param>
+ <param name="b">The blue channel value</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeColor.Constrain(System.Int32)">
+ <summary>
+ Ensures that the given value is between 0 and 255, inclusively
+ </summary>
+ <param name="v"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeColor.Equals(System.Object)">
+ <summary>
+ Tests for equality between this ArtificeColor and the given object
+ </summary>
+ <param name="obj"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeColor.GetBrush">
+ <summary>
+ Returns as new SolidBrush for this ArtificeColor
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeColor.GetBrush(System.Single)">
+ <summary>
+ Returns a new SolidBrush for this ArtificeColor, with the given opacity multiplier
+ </summary>
+ <param name="opacity">A value between 0 and 1 to multiply this ArtificeColor's opacity by</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeColor.Parse(System.String)">
+ <summary>
+ Parses the given string and returns an instance of ArtificeColor
+ </summary>
+ <param name="s">The string to parse</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeColor.ToRGBString">
+ <summary>
+ Converts this ArtificeColor to an SVG-friendly rgb(r,g,b) string
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ChildSelector">
+ <summary>
+ A generic dialog box for selecting child nodes of a ArtificeObject
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ChildSelector.ParentObject">
+ <summary>
+ The ArtificeObject whose children we are going to choose from
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.AdvancedColor">
+ <summary>
+ A color object that handles RGB and HSV components for use by the AdvancedColorPicker control
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.FromColor(System.Drawing.Color)">
+ <summary>
+ Returns a new instance of AdvancedColor from the given System.Drawing.Color object
+ </summary>
+ <param name="c">The color to initialize this AdvancedColor with</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.FromHSV(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Returns a new instance of AdvancedColor with the given H, S, and V values
+ </summary>
+ <param name="h">The hue of the new color</param>
+ <param name="s">The saturation of the new color</param>
+ <param name="v">The luminosity of the new color</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.FromRGB(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Returns a new instance of AdvancedColor with the given R, G, and B values
+ </summary>
+ <param name="r"></param>
+ <param name="g"></param>
+ <param name="b"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.HSVtoRGB(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Converts the HSV values to RGB values, storing all internally
+ </summary>
+ <param name="H"></param>
+ <param name="S"></param>
+ <param name="V"></param>
+ <remarks>From http://stackoverflow.com/questions/4123998/algorithm-to-switch-between-rgb-and-hsb-color-values </remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.RGBtoHSV(System.Drawing.Color)">
+ <summary>
+ Converts the RGB values (from the given System.Drawing.Color) to HSV values, storing all internally
+ </summary>
+ <param name="c"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.RGBtoHSV(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Converts the given RGB values to HSV values, storing all internally
+ </summary>
+ <param name="R"></param>
+ <param name="G"></param>
+ <param name="B"></param>
+ <remarks>'From http://stackoverflow.com/questions/4123998/algorithm-to-switch-between-rgb-and-hsb-color-values </remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.ToHexString">
+ <summary>
+ Returns this object as an HTML-friendly hex color string
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.Update(System.Drawing.Color)">
+ <summary>
+ Sets this color to the given System.Drawing.Color
+ </summary>
+ <param name="c"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.UpdateRGB(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Sets this color to the given R, G, and B values
+ </summary>
+ <param name="r">The red component</param>
+ <param name="g">The green component</param>
+ <param name="b">The blue component</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.AdvancedColor.UpdateFromRGB">
+ <summary>
+ Updates the HSV values based on the current RGB values
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.AnimationContext">
+ <summary>
+ Contains contextual information for the animation process in the Artifice DOM
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.AnimationContext.Effects">
+ <summary>
+ The list of Effects that are cumulatively applied while animating
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.AnimationContext.Frame">
+ <summary>
+ The frame to animate to
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.AnimationContext.KeyFrame">
+ <summary>
+ The current KeyFrame we are animating in (if any)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.AnimationContext.KeyFrameStack">
+ <summary>
+ The stack of KeyFrame objects we are animating in
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.AnimationContext.LerpAmount">
+ <summary>
+ The amount being lerped based on the current frame and current KeyFrame
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.AnimationContext.#ctor(System.Int32)">
+ <summary>
+ Creates a new instance of AnimationContext for the given frame
+ </summary>
+ <param name="frame">The frame to animate at</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ColorSurface">
+ <summary>
+ A control that maps out the x/y components of the shared AdvancedColor object
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ColorSurface.Color">
+ <summary>
+ The shared instance of AdvancedColor that this control is manipulating
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ColorSurface.ZProperty">
+ <summary>
+ The component that isn't being rendered on this control
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ColorSurface.CreateSurface">
+ <summary>
+ Creates the internal surface bitmap to the appropriate size for this control
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ColorSurface.DrawSurface">
+ <summary>
+ Redraws the x,y color map on our internal bitmap
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ColorSurface.MyColor_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Handles any property changes of our AdvancedColor object
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ColorSurface.SetPosition(System.Drawing.Point)">
+ <summary>
+ Updates the AdvancedColor components based on the given location
+ </summary>
+ <param name="location"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Designer">
+ <summary>
+ A singleton class that acts as the switchboard for all events and major design-time properties throughout Artifice
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Designer.Animating">
+ <summary>
+ When True, prevents controls from refreshing when Artifice DOM object properties change
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.AddSelection(Artifice.ArtificeObject)">
+ <summary>
+ Adds the given ArtificeObject to the collection of selected objects
+ </summary>
+ <param name="obj">The individual ArtificeObject to add</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.AddSelection(Artifice.ArtificeObject[])">
+ <summary>
+ Adds the given ArtificeObjects to the collection fo selected objects
+ </summary>
+ <param name="obj">An array of ArtificeObjects to add</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.AddUndo(Artifice.UndoBase)">
+ <summary>
+ Adds the given undo action to the undo list
+ </summary>
+ <param name="ub">The undo action to add</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.EndUndoBatch">
+ <summary>
+ Closes the current UndoBatch
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.ExportToSVG(System.String)">
+ <summary>
+ Exports the currently-selected project to an SVG file
+ </summary>
+ <param name="fileName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.GetSelectionBounds">
+ <summary>
+ Returns the unioned bounds of the current selected objects
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.MyProject_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Handles internal property changes on the current Project, so as to bubble them to any external objects
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.Redo">
+ <summary>
+ Redoes the action at the current position in the undo list
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.RemoveSelection(Artifice.ArtificeObject)">
+ <summary>
+ Removes the given object from the collection of selected objects
+ </summary>
+ <param name="obj">The object to remove from the selection</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.SetSelection(Artifice.ArtificeObject)">
+ <summary>
+ Sets the collection of selected objects to the given object, removing any previously-selected objects
+ </summary>
+ <param name="obj"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.SetSelection(Artifice.ArtificeObject[])">
+ <summary>
+ Sets the collection of selected objects to the given objects, removing any previously-selected objects
+ </summary>
+ <param name="objs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.StartUndoBatch">
+ <summary>
+ Creates a new UndoBatch
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Designer.Undo">
+ <summary>
+ Undoes the current action at the UndoIndex
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.DesignerControlBase">
+ <summary>
+ The base class for all custom-drawn controls in the designer
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.DoubleBufferPanel">
+ <summary>
+ A Panel object with an OptimizedDoubleBuffer
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.ExportAudioContext">
+ <summary>
+ A class to assist in exporting audio content to video
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ExportAudioContext.Frame">
+ <summary>
+ The frame that is currently being exported
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ExportAudioContext.Mixer">
+ <summary>
+ The NAudio.Wave.WaveMixerStream32 used to mix all the audio components of this Scene
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ExportAudioContext.Timeshift">
+ <summary>
+ The timeshift to apply to exported audio (used to adjust audio being played in subscenes)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ExportAudioContext.#ctor(NAudio.Wave.WaveMixerStream32,System.Int32)">
+ <summary>
+ Creates a new instance of ExportAudioContext with the given mixer for the given frame
+ </summary>
+ <param name="mixer">The WaveMixerStream32 class used to mix all the audio</param>
+ <param name="frame">The frame currently being exported</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ExportAudioContext.#ctor(NAudio.Wave.WaveMixerStream32,System.Int32,System.Single)">
+ <summary>
+ Creates a new instance of ExportAudioContext with the given mixer for the given frame and timeshift
+ </summary>
+ <param name="mixer">The WaveMixerStream32 class used to mix all the audio</param>
+ <param name="frame">The frame currently being exported</param>
+ <param name="timeshift">The time (in seconds) to shift the audio by</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Extensions">
+ <summary>
+ Extenion methods for various classes
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.Extensions.Center(System.Drawing.Rectangle)">
+ <summary>
+ Returns the center point of the given rectangle
+ </summary>
+ <param name="r"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Extensions.Center(System.Drawing.RectangleF)">
+ <summary>
+ Returns the center point of the given rectangle
+ </summary>
+ <param name="r"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Extensions.Union(System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Drawing2D.GraphicsPath)">
+ <summary>
+ Unions two GraphicsPaths together and returns a new GraphicsPath as a result
+ </summary>
+ <param name="dest"></param>
+ <param name="src"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.FontFamilyEditor">
+ <summary>
+ A UITypeEditor that provides a dropdown of Font Families in the PropertyGrid control
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.FontFamilyTypeConverter">
+ <summary>
+ Handles conversion between String and FontFamily
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.HorizontalColorSlider">
+ <summary>
+ A horizontal color slider, designed for alpha channel adjustment and (future) gradient color stop positions
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.HorizontalColorSlider.ColorStops">
+ <summary>
+ The list of all color stops on this gradient
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.HorizontalColorSlider.OwnerDraw">
+ <summary>
+ Determines whether this control is drawn automatically or by an external control
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.HorizontalColorSlider.MultipleStops">
+ <summary>
+ True if this control can display multiple color stops. If False, then only one color stop is allowed.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.HorizontalColorSlider.StopPosition">
+ <summary>
+ The stop position of the first (or only) color stop in this control
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.HorizontalColorSlider.AddStop(System.Single)">
+ <summary>
+ Adds a color stop to this control at the given value
+ </summary>
+ <param name="value">The percentage value (betwen 0.0 and 1.0) of the location of this stop</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.HorizontalColorSlider.CreateBitmap">
+ <summary>
+ Creates the in-memory bitmap, sized to fit this control
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.HorizontalColorSlider.RedrawBitmap">
+ <summary>
+ Redraw the color bar. In the future it will automatically draw the gradient.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ColorStop">
+ <summary>
+ A single color stop in a color slider
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ColorStop.Position">
+ <summary>
+ The position of this color stop, as a percentage between 0.0 and 1.0
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.StopPositionChangedEventArgs">
+ <summary>
+ The event argument when a color stop position's is changed in a HorizontalColorSLider
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.ImageCacheItem">
+ <summary>
+ A single item in the global ImageCache
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.ImageCacheItem.LoadImage">
+ <summary>
+ Loads the image into the cache
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.RenderContext">
+ <summary>
+ Provides contextual information to assis with rendering throughout the Artifice DOM
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.RenderContext.Effects">
+ <summary>
+ The list of effects being cumulatively applied to all ArtificeObjects
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.RenderContext.Frame">
+ <summary>
+ The frame currently being rendered
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.RenderContext.Graphics">
+ <summary>
+ The graphics object to render to
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.RenderContext.OpacityStack">
+ <summary>
+ The stack of opacity transformations in this render context
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.RenderContext.#ctor(System.Int32,System.Drawing.Graphics)">
+ <summary>
+ Constructs a new instance of RenderContext for the given frame and Graphics instance
+ </summary>
+ <param name="frame">The frame currently being rendered</param>
+ <param name="g">The graphics object to render to</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.RenderContext.PopGraphicsState">
+ <summary>
+ Pops and restores the Graphics transform state from the transform stack
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.RenderContext.PushGraphicsState">
+ <summary>
+ Pushes the current Graphics transform state to the transform stack
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.SceneSurface.AfterRender(Artifice.RenderContext)">
+ <summary>
+ Performs any clean-up actions to the RenderContext after this rendering is complete
+ </summary>
+ <param name="rc"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.SceneSurface.BeforeRender(Artifice.RenderContext)">
+ <summary>
+ Performs an initalization and transformation to the RenderContext before rendering occurrs
+ </summary>
+ <param name="rc"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.SceneSurface.CalculateStageBounds">
+ <summary>
+ Calculates the bounds of the stage and the zoom level when AutoFit is set to True.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.SceneSurface.DesignerPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Handles PropertyChanged events from the Designer singleton
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.SwatchButton">
+ <summary>
+ A single swatch color in the AdvancedColorPicker dialog
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.SwatchButton.ArtificeColor">
+ <summary>
+ The ArtificeColor this swatch records
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Timeline">
+ <summary>
+ The timeline control is used to display and manipulate layers, layer folders, and keyframes
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.Timeline.TimelineHitTestResults">
+ <summary>
+ A class containg the results of a hit test performed on the timeline
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="F:Artifice.Timeline.MyLayerHeaderWidth">
+ <summary>
+ Contains the calculated width for the layer name header section (the left part of the timeline)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Artifice.Timeline.MyLayerHeaderHeight">
+ <summary>
+ Contains the maximum calculated height of each layer name (essentially the "item height" in our list)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Artifice.Timeline.MyFrameWidth">
+ <summary>
+ The width of each frame in the frame grid
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Artifice.Timeline.MyLayerList">
+ <summary>
+ Our internal cached list of visible layers to facilitate rendering and mouse tracking
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Timeline.FrameStart">
+ <summary>
+ The starting frame when rendering the grid
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.CalculateLayout(System.Drawing.Graphics,Artifice.ArtificeObject[],System.Int32@,System.Int32,System.Int32)">
+ <summary>
+ Builds a list of visible layers in the order they appear vertically to facilitate mouse tracking and painting
+ </summary>
+ <param name="g"></param>
+ <param name="layers"></param>
+ <param name="depth"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.CalculateScrollers">
+ <summary>
+ Determines the visibility, size, and position of the scrollbars
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.DesignerPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Responds to property changes by the designer or any ArtificeObject in the current project
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.DrawLayer(System.Int32,Artifice.Timeline.LayerListItem,System.Drawing.StringFormat,System.Drawing.Graphics)">
+ <summary>
+ Paints the specified layer at the vertical location
+ </summary>
+ <param name="yStart"></param>
+ <param name="li"></param>
+ <param name="sf"></param>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.HitTest(System.Drawing.Point)">
+ <summary>
+ Returns information about the timeline at the given coordinates
+ </summary>
+ <param name="location">The location to check at</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.HitTest(System.Int32,System.Int32)">
+ <summary>
+ Returns information about the timeline at the given coordinates
+ </summary>
+ <param name="x">The x-coordinate of the location to check at</param>
+ <param name="y">The y-coordinate of the location to check at</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.OnPaint(System.Windows.Forms.PaintEventArgs)">
+ <summary>
+ Handles painting of our Timeline control
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.RealignRenamer">
+ <summary>
+ Ensures that if the Renamer text box is visible, it's correctly aligned to the layer being renamed
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.RecalculateLayout">
+ <summary>
+ Determines the sizes of the various sections of the TimeLine
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.StartLayerRename">
+ <summary>
+ Shows the Renamer control for the currently-selected layer
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.StartLayerRename(Artifice.ArtificeLayerBase)">
+ <summary>
+ Shows the Renamer control for the given layer
+ </summary>
+ <param name="l"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Timeline.StopLayerRename(System.Boolean)">
+ <summary>
+ Hides the Renamer textbox
+ </summary>
+ <param name="cancel">False if you want the changes to the layer name committed, True otherwise</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ToolStripBindableButton">
+ <summary>
+ A class that extends ToolStripButton to allow binding to its properties
+ </summary>
+ <remarks>Created by Autodev. Adapted from http://blog.decayingcode.com/post/easily-enable-databindings-on</remarks>
+</member>
+<member name="T:Artifice.ToolStripColorButton">
+ <summary>
+ A button for displaying the default colors for fill and line in a ToolstripContainer
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.ArrowTool">
+ <summary>
+ The Arrow tool, which handles selecting and moving objects and points
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.ArrowTool.DrawSelectionFrame(System.Windows.Forms.Control)">
+ <summary>
+ Draws a reversable frame over the given control
+ </summary>
+ <param name="c">The control to draw the frame on</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.EllipseTool">
+ <summary>
+ The tool for creating ellipse-based Vector Objects
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ImageTool">
+ <summary>
+ The tool for adding RasterImage Artifice objects to the scene
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.PencilTool">
+ <summary>
+ The class for drawing freehand lines in the designer
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.PolygonTool">
+ <summary>
+ The tool for adding polygon shapes to the surface
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.RectangleTool">
+ <summary>
+ The tool for creating rectangle-based vector objects
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.SubSceneTool">
+ <summary>
+ The tool for adding subscenes
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.TextTool">
+ <summary>
+ The tool for adding text to the scene
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.ToolBase">
+ <summary>
+ The base class for all tool objects
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ToolBase.Cursor">
+ <summary>
+ The cursor to display when this control is selected
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolBase.Description">
+ <summary>
+ The help text that appears as the tooltip text for the control and the help text in the status bar
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolBase.Designer">
+ <summary>
+ The singleton instance of the Designer class
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolBase.Icon">
+ <summary>
+ The image to display for this tool in the toolbar
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolBase.Index">
+ <summary>
+ The display order of this tool in the toolbar. Also doubles as the hotkey to select the tool
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolBase.Name">
+ <summary>
+ The display name of this tool
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolBase.CreateNewObject(System.Drawing.Point)">
+ <summary>
+ Creates a new instance of VectorObject at the given location
+ </summary>
+ <param name="location">The world-space location to create the object at</param>
+ <returns>The new VectorObject</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolBase.OnKeyDown(Artifice.SceneSurface,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Receives KeyDown events from the SceneSurface control
+ </summary>
+ <param name="surface">The surface receiving the original events</param>
+ <param name="e">The KeyEventArgs from the original event</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolBase.OnKeyUp(Artifice.SceneSurface,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Receives KeyUp events from the SceneSurface control
+ </summary>
+ <param name="surface">The surface receiving the original events</param>
+ <param name="e">The KeyEventArgs from the original event</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolBase.OnMouseClick(Artifice.ToolMouseEvent)">
+ <summary>
+ Receives MouseClick events from the SceneSurface control
+ </summary>
+ <param name="e">The ToolMouseEvent instance containing information about the event</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolBase.OnMouseDoubleClick(Artifice.ToolMouseEvent)">
+ <summary>
+ Receives MouseDoubleClick events from the SceneSurface control
+ </summary>
+ <param name="e">The ToolMouseEvent instance containing information about the event</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolBase.OnMouseDown(Artifice.ToolMouseEvent)">
+ <summary>
+ Receives MouseDown events from the SceneSurface control
+ </summary>
+ <param name="e">The ToolMouseEvent instance containing information about the event</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolBase.OnMouseMove(Artifice.ToolMouseEvent)">
+ <summary>
+ Receives MouseMove events from the SceneSurface control
+ </summary>
+ <param name="e">The ToolMouseEvent instance containing information about the event</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolBase.OnMouseUp(Artifice.ToolMouseEvent)">
+ <summary>
+ Receives MouseUp events from the SceneSurface control
+ </summary>
+ <param name="e">The ToolMouseEvent instance containing information about the event</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ToolMouseEvent">
+ <summary>
+ Represents an object containing mouse event information from a SceneSurface object passed to an object derived from ToolBase
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.ActiveObject">
+ <summary>
+ Returns the ArtificeObject at the provided device coordinates; Nothing otherwise
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.ControlLocation">
+ <summary>
+ The mouse location, in device (control) units
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.ControlKeyDown">
+ <summary>
+ Returns True if a CONTROL key is down, False otherwise
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.Designer">
+ <summary>
+ Returns the singleton instance of the Designer class
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.Location">
+ <summary>
+ The mouse location in world units, relative to the currently selected container's origin
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.Mouse">
+ <summary>
+ The instance of MouseEventArgs that was passed into the original SceneSurface mouse event handlers
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.ObjectLocation">
+ <summary>
+ The mouse coordinates in world units, relative to ActiveObject
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.ShiftKeyDown">
+ <summary>
+ Returns True if a SHIFT key is down; false otherwise
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ToolMouseEvent.Surface">
+ <summary>
+ The instance of SceneSurface where the mouse events originated from
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ToolMouseEvent.#ctor(Artifice.SceneSurface,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Creates a new instance of ToolMouseEvents and initializes all the members based on the passed-in SceneSurface and control coordinates (in device units)
+ </summary>
+ <param name="surface">The SceneSurface control where the original mouse event originated from</param>
+ <param name="e">The MouseEventArgs from the original mouse events on the SceneSurface</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ObjectAddedUndo">
+ <summary>
+ Handles the undoing/redoing when an object is added to the Artifice DOM
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.ObjectAddedUndo.#ctor(Artifice.ArtificeObject)">
+ <summary>
+ Creates a new instance of ObjectAddedUndo for the given object
+ </summary>
+ <param name="vo">The newly-added ArtificeObject</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ObjectMoveUndo">
+ <summary>
+ Handles undoing/redoing objects that have been moved within their parent's list of children. It should be created before the move is actually performed
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.ObjectMoveUndo.#ctor(Artifice.ArtificeObject,System.Int32)">
+ <summary>
+ Constructs a new instance of ObjectMoveUndo for the given object and its new index. This should be created prior to the move actually happening.
+ </summary>
+ <param name="vo">The object being moved</param>
+ <param name="newIndex">The new index of this object</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ObjectRemovedUndo">
+ <summary>
+ Handles the undoing/redoing when an object is removed from the Artifice DOM
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.PropertyChangeUndo">
+ <summary>
+ Handles the undoing/redoing when an object's property is changed
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.PropertyChangeUndo.#ctor(System.Object,System.String,System.Object,System.Object)">
+ <summary>
+ Creates a new instance of PropertyChangeUndo, recording the old value and new value of the given object's property
+ </summary>
+ <param name="o">The object that was changed</param>
+ <param name="propertyName">The name of the property that was changed</param>
+ <param name="oldValue">The old value of the property</param>
+ <param name="newValue">The new value of the property</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.UndoBase">
+ <summary>
+ The abstract base class for all undo/redo operations in Artifice
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.UndoBase.OnRedo">
+ <summary>
+ Called when a derived class is to handle the Redo command
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.UndoBase.OnUndo">
+ <summary>
+ Called when a derived class is to handle the Undo command
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.UndoBase.Redo">
+ <summary>
+ Redoes this action
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.UndoBase.Undo">
+ <summary>
+ Undoes this action
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.UndoBatch">
+ <summary>
+ Combines a group of UndoBase objects at once
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.UndoBatch.AddUndo(Artifice.UndoBase)">
+ <summary>
+ Adds a new undo object to this batch list
+ </summary>
+ <param name="u">The undo object to add</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.VectorPathChangeUndo">
+ <summary>
+ Handles undoing of path changes of vector objects
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.VerticalColorSlider">
+ <summary>
+ A vertical color control to adjust the "Z" component of the AdvancedColorPicker dialog
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.VerticalColorSlider.RGB">
+ <summary>
+ A simplified color structure for use by VerticalColorSlider and AdvancedColor
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.VerticalColorSlider.CreateBitmap">
+ <summary>
+ Creates the in-memory bitmap to that holds the range of the z property values
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.VerticalColorSlider.HSVtoRGB(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="H"></param>
+ <param name="S"></param>
+ <param name="V"></param>
+ <returns></returns>
+ <remarks>From http://stackoverflow.com/questions/4123998/algorithm-to-switch-between-rgb-and-hsb-color-values </remarks>
+</member>
+<member name="M:Artifice.VerticalColorSlider.RedrawBitmap">
+ <summary>
+ Draws the range of values for the Z property into the in-memory bitmap:
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.MainWindow">
+ <summary>
+ The main form of the Artifice application
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.MainWindow.ConfigureUI">
+ <summary>
+ Configures all unbound toolbar buttons, menu items, etc. when anything changes
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.ConstructEffectsList">
+ <summary>
+ Builds the EffectsList listview based on the currently selected object
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.ConstructTree">
+ <summary>
+ Builds the project path tree as well as any effects in the effects list
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.CopySelection">
+ <summary>
+ Copies the currently-selected objects to the clipboard
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.DesignerPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ The handler of all change events that occur in the Designer and the Artifice DOM
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.FindFocussedControl(System.Windows.Forms.Control)">
+ <summary>
+ Finds the control that actually has the focus, searching recursively through the control stack
+ </summary>
+ <param name="ctr"></param>
+ <returns></returns>
+ <remarks>Taken from http://stackoverflow.com/questions/660173/how-do-i-find-out-which-control-has-focus-in-net-windows-forms </remarks>
+</member>
+<member name="M:Artifice.MainWindow.GetFileName">
+ <summary>
+ Gets a filename to save the current project to
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.InternalSave">
+ <summary>
+ Prompts the user for a filename and saves the Artifice project if they clicked "OK"
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.Paste(System.Xml.Linq.XElement)">
+ <summary>
+ Pastses the content of the clipboard into the current layer
+ </summary>
+ <param name="selectedObjects"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.PlayingThread">
+ <summary>
+ The background thread which handles the playing of the selected scene with the appropriate timing
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.PromptForSave(System.String)">
+ <summary>
+ Prompts the user to save the current Project
+ </summary>
+ <param name="promptText">The text to prompt with</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.RemoveEffectButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ The handler for the Remove Effect button
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.MainWindow.ThreadsafeFrameSet(System.Int32)">
+ <summary>
+ Changes the currently-selected Scene's frame by the given amount in a threadsafe manner
+ </summary>
+ <param name="newFrame">The new frame to change to</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Lerpable`1">
+ <summary>
+ The abstract generic class for all Lerpable properties
+ </summary>
+ <typeparam name="T"></typeparam>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.Lerpable`1.Delta">
+ <summary>
+ The delta value of this amount at any given frame of animation
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Lerpable`1.Lerpable">
+ <summary>
+ When True, this amount is linerally interpolated during animation
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Lerpable`1.Value">
+ <summary>
+ The keyframe value of this lerpable object
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Lerpable`1.#ctor(`0)">
+ <summary>
+ Creates a new instance of this lerpable, setting it's value to initialValue
+ </summary>
+ <param name="initialValue"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Lerpable`1.Copy(Artifice.Lerpable{`0})">
+ <summary>
+ Copies the values from newValue into this Lerpable
+ </summary>
+ <param name="newValue">The value to copy</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Lerpable`1.Equals(System.Object)">
+ <summary>
+ Determines whether this Lerpable is equal to the object being passed in
+ </summary>
+ <param name="obj"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Lerpable`1.Lerp(Artifice.Lerpable{`0},System.Single)">
+ <summary>
+ Linearly interpolates this value against the destination value, storing it in Delta
+ </summary>
+ <param name="destination"></param>
+ <param name="lerpAmount"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Lerpable`1.Lerp(`0,System.Single)">
+ <summary>
+ Linearaly interpolates this value against the destination value, storing it in Delta
+ </summary>
+ <param name="destination"></param>
+ <param name="lerpAmount"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Lerpable`1.Reset">
+ <summary>
+ Resets Delta to Value
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.NewProject">
+ <summary>
+ The dialog box for creating new Artifice projects
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.DropShadow">
+ <summary>
+ A special effect that creates a dropshadow around all applicable ArtificeObjects
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.EffectBase">
+ <summary>
+ The abstract base class for all effects
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.EffectBase.OnAfterAnimate(Artifice.AnimationContext,Artifice.ArtificeObject)">
+ <summary>
+ Called after animation of the current ArtificeObject has occurred
+ </summary>
+ <param name="ac"></param>
+ <param name="obj"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.EffectBase.OnAfterRender(Artifice.RenderContext,Artifice.ArtificeObject)">
+ <summary>
+ Called after rendering of the current ArtificeObject has occurred
+ </summary>
+ <param name="rc"></param>
+ <param name="obj"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.EffectBase.OnBeforeAnimate(Artifice.AnimationContext,Artifice.ArtificeObject)">
+ <summary>
+ Called before animation of the current ArtificeObject has occurred
+ </summary>
+ <param name="ac"></param>
+ <param name="obj"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.EffectBase.OnBeforeRender(Artifice.RenderContext,Artifice.ArtificeObject)">
+ <summary>
+ Called before rendering of the current ArtificeObject has occurred
+ </summary>
+ <param name="rc"></param>
+ <param name="obj"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.PointSquiggle">
+ <summary>
+ A special effect that occillates VectorPoints with each frame
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="T:Artifice.Group">
+ <summary>
+ Represents a grouping of visual objects on a layer
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.Group.#ctor">
+ <summary>
+ Creates a new instance of a Group. If this is at design time (vs. loading), the currently selected objects will be automatically added to this group.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Group.UnGroup">
+ <summary>
+ Returns all the children of this group to this group's parent, and then removes the group
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.KeyFrame">
+ <summary>
+ Represents a single keyframe on a layer
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.KeyFrame.Frame">
+ <summary>
+ The frame that this keyframe is on
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Layer">
+ <summary>
+ Represents a layer (which contains keyframes)
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.Layer.AddKeyFrame(System.Int32)">
+ <summary>
+ Add's a new KeyFrame for the given frame
+ </summary>
+ <param name="frame">The frame to add the keyframe to</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Layer.GetKeyFrame(System.Int32)">
+ <summary>
+ Returns the applicable KeyFrame for the given frame
+ </summary>
+ <param name="frame">The frame to retrieve the KeyFrame for</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Layer.HasKeyFramesAfter(System.Int32)">
+ <summary>
+ Returns True if there are KeyFrames after the given frame, False otherwise.
+ </summary>
+ <param name="frame">The frame to test against</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.LayerGroup">
+ <summary>
+ A special type of layer that can contain only other layers
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.LayerGroup.Expanded">
+ <summary>
+ Determines whether or not the child layers are visible (expanded) in the Timeline control
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.RasterImage">
+ <summary>
+ A skewable raster image
+ </summary>
+ <remarks>Created by Autodev. Inherits from VectorObject to take advantage of the VectorPoint logic</remarks>
+</member>
+<member name="P:Artifice.RasterImage.ImageFile">
+ <summary>
+ The filename of the Image to display
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.RasterImage.CalculatePoints">
+ <summary>
+ Internally caculates the anchor points for this image
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.RasterImage.GetRange(System.Drawing.PointF,System.Drawing.PointF)">
+ <summary>
+ Computes the range between two points
+ </summary>
+ <param name="pt1">The start point</param>
+ <param name="pt2">The end point</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Scene">
+ <summary>
+ This class represents a single animation in the Project
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.Scene.Frame">
+ <summary>
+ The current frame this scene is displaying
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Scene.LoopPlayback">
+ <summary>
+ True if playback for this scene is looped at design time
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Scene.StageColor">
+ <summary>
+ The background color of the stage behind this scene
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Scene.TotalFrames">
+ <summary>
+ Returns the maximum frame number in this scene
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Sound">
+ <summary>
+ Represents a single sound that can be played
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.Sound.Action">
+ <summary>
+ The action to perform on the sound
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Sound.AudioFile">
+ <summary>
+ The sound file to play
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Sound.AudioReader">
+ <summary>
+ The internal instance of the AudioReader class for loading the 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Sound.Volume">
+ <summary>
+ The volume of the audio playback
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Sound.WaveOut">
+ <summary>
+ The buffered WaveOut instance for this audio file
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Subscene">
+ <summary>
+ A visual object that contains a Scene object and can play a Scene within a Scene
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.SceneSelectionEditor">
+ <summary>
+ The PropertyGrid popup editor for the scene selector
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Text">
+ <summary>
+ Represents a visual text object
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="M:Artifice.Text.ConvertToVectorObject">
+ <summary>
+ Converts this text object to an instance of VectorObject
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Text.MyFillColor_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Internally ensures that changes to the FillColor property are bubbled up the hierarchy
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Text.MyLineColor_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Internally ensures that changes to the LineColor property are bubbled up the hierarchy
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Text.RecreatePath">
+ <summary>
+ Internally creates the path object using the current text and values
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ArtificeLayerBase">
+ <summary>
+ The abstract base class for Layers and LayerGroups (folders)
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ArtificeLayerBase.Locked">
+ <summary>
+ Determines if this layer (or its child layers) are to be locked from editing in the designer
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeLayerBase.TotalFrames">
+ <summary>
+ Returns the maximum frame number in this layer
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeLayerBase.Visible">
+ <summary>
+ Determines if this layer (or its child layers) are to be rendered
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeLayerBase.HasKeyFramesAfter(System.Int32)">
+ <summary>
+ Returns True if this layer has KeyFrames after this given frame, False otherwise
+ </summary>
+ <param name="frame">The frame to check against</param>
+ <returns></returns>
+ <remarks>Handled by dervied classes</remarks>
+</member>
+<member name="T:Artifice.ArtificeMoveable">
+ <summary>
+ The abstract base class for all visual objects that have a location
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ArtificeMoveable.Opacity">
+ <summary>
+ The opacity with which this object is drawn
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeMoveable.TransformedBounds">
+ <summary>
+ The bounds of this object, in Device coordinates
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>Set after each Render, this caches the transformed bounds of this object to assist with object location at design time</remarks>
+</member>
+<member name="P:Artifice.ArtificeMoveable.TransformedLocation">
+ <summary>
+ The location of this object, in Device coordinates
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>Set after each Render, this caches the transformed location of this object to assist with object rotation at design time</remarks>
+</member>
+<member name="P:Artifice.ArtificeMoveable.X">
+ <summary>
+ The Lerpable X-Coordinate of this object
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeMoveable.Y">
+ <summary>
+ The Lerpable Y-Coordinated of this object
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeMoveable.MyOpacity_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Handles the change of our Opacity property's Value member to ensure that it's bubbled up through the hierarchy
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeMoveable.MyX_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Handles the change of our X property's Value member to ensure that it's bubbled up through the hierarchy
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeMoveable.MyY_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Handles the change of our X property's Value member to ensure that it's bubbled up through the hierarchy
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ArtificeObject">
+ <summary>
+ The base class for all objects in the Artifice DOM
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Children">
+ <summary>
+ A read-only list of the children of this object
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.ChildrenList">
+ <summary>
+ An internally modifiable list of this object's children
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Designer">
+ <summary>
+ The instance of the Designer singleton
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Effects">
+ <summary>
+ A list of effects applied to this ArtificeObject
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Icon">
+ <summary>
+ The visual icon used when displaying this object in lists
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Id">
+ <summary>
+ This object's internal identifier
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.LastId">
+ <summary>
+ The most recent id assigned to a ArtificeObject in this project
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Name">
+ <summary>
+ The name of this ArtificeObject
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Next">
+ <summary>
+ Returns the next sibling of this ArtificeObject, or Nothing if this is the last
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.NextId">
+ <summary>
+ Returns the next available id for this project
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Parent">
+ <summary>
+ Returns the parent of this ArtificeObject, or Nothing if this ArtificeObject is unassigned or is a Project
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.ParentIndex">
+ <summary>
+ Returns the position of this ArtificeObject with respect to its siblings
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeObject.Previous">
+ <summary>
+ Returns the previous sibling of this ArtificeObject, or Nothing if this is the first
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.#ctor">
+ <summary>
+ Constructs a new ArtificeObject
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.AddAfter(Artifice.ArtificeObject)">
+ <summary>
+ Adds the given ArtificeObject to this object's parent, after this object in the list of children
+ </summary>
+ <param name="sibling">The sibling to add</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.AddBefore(Artifice.ArtificeObject)">
+ <summary>
+ Adds the given ArtificeObject to this object's parent, before this object in the list of children
+ </summary>
+ <param name="sibling">The sibling to add</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.AddChild(Artifice.ArtificeObject)">
+ <summary>
+ Adds the given object to this ArtificeObject's children, at the end of the list
+ </summary>
+ <param name="child">The child to be added</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.AddEffect(Artifice.EffectBase)">
+ <summary>
+ Adds an effect to this ArtificeObject
+ </summary>
+ <param name="e">The effect to add</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.Animate(Artifice.AnimationContext)">
+ <summary>
+ Animates the current object (and it's children), against the given AnimationContext
+ </summary>
+ <param name="context">The context to animate against</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.As``1">
+ <summary>
+ Returns this instance CType'd to the given type
+ </summary>
+ <typeparam name="T">The type (derived from ArtificeObject) to cast it to</typeparam>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.BringForward">
+ <summary>
+ Moves this object one step up its Parent's list of children
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.BringToFront">
+ <summary>
+ Brings this object to the top of its Parent's list of children
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.Clone">
+ <summary>
+ Makes a copy of this ArtificeObject, automatically duplicating any Lerpables.
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.ExportAudio(Artifice.ExportAudioContext)">
+ <summary>
+ Exports audio from this ArtificeObject into the provided audio mixer
+ </summary>
+ <param name="context">The context to export with</param>    
+ <remarks>This only gets used by the Sound class presently</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.FromXElement(System.Xml.Linq.XElement,System.Boolean)">
+ <summary>
+ Returns a new ArtificeObject from the provided XElement
+ </summary>
+ <param name="el">The XElement containing the ArtificeObject definition</param>
+ <param name="uniqueIds">True to assign unique ids to the resulting objects, False to use the ids from the XElement.</param>
+ <returns>A new ArtificeObject</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.GetAncestor``1">
+ <summary>
+ Finds the first ancestor of a specific type start from this object
+ </summary>
+ <typeparam name="T">The type you are searching for</typeparam>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.GetBounds">
+ <summary>
+ Returns the bounds, in World coordinates, of this object
+ </summary>
+ <returns>A RectangleF containing the bounds of this object</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.GetChildById(System.Int32)">
+ <summary>
+ Returns the child ArtificeObject with the given id, or Nothing if no object is found
+ </summary>
+ <param name="id">The id to search for</param>
+ <returns></returns>
+ <remarks>This method is used by the Lerping algorithms to find an object's copy in another KeyFrame</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.GetClosest``1">
+ <summary>
+ Finds the closest object of the given type, searching from this object up the Artifice DOM
+ </summary>
+ <typeparam name="T">The type you are searching for</typeparam>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.HitTest(System.Single,System.Single,Artifice.RenderContext,System.Drawing.Point@)">
+ <summary>
+ Returns the ArtificeObject found at the given coordinates
+ </summary>
+ <param name="x">The x coordinate to search</param>
+ <param name="y">The y coordinate to search</param>
+ <param name="rc">The render context to transform the points against</param>
+ <param name="transformedLocation">The original x, y coordinates transformed to the World coordinates of the returned object (if any)</param>
+ <returns>The ArtificeObject at the given coordinates, or Nothing if none are found</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.Is``1">
+ <summary>
+ Returns True if this instance is of type T (or is class derived from T).
+ </summary>
+ <typeparam name="T">The type (derived from ArtificeObject) to test for</typeparam>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.IsAncestorOf(Artifice.ArtificeObject)">
+ <summary>
+ Returns True if this object is an ancestor of the given object
+ </summary>
+ <param name="vo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnAfterAnimate(Artifice.AnimationContext)">
+ <summary>
+ Called after this ArtificeObject has been animated
+ </summary>
+ <param name="ac">The animation context used to animate this object</param>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnAfterLoad">
+ <summary>
+ Called after this ArtificeObject has been loaded from XML
+ </summary>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnAfterRender(Artifice.RenderContext)">
+ <summary>
+ Called after this ArtificeObject has been rendered
+ </summary>
+ <param name="rc">The render context used to render this ArtificeObject</param>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnAnimate(Artifice.AnimationContext)">
+ <summary>
+ Called when this ArtificeObject needs to be animated
+ </summary>
+ <param name="ac">The animation context used to animate this object</param>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnBeforeRender(Artifice.RenderContext)">
+ <summary>
+ Called before this ArtificeObject has been rendered
+ </summary>
+ <param name="rc">The render context used to render this ArtificeObject</param>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnChildAdded">
+ <summary>
+ Called when a child has been added to this ArtificeObject
+ </summary>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnChildRemoved">
+ <summary>
+ Called when a child has been removed to this ArtificeObject
+ </summary>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnClone(Artifice.ArtificeObject)">
+ <summary>
+ Called when a clone of this object has been created, to allow additional fields to be copied by derived classes
+ </summary>
+ <param name="clone">The clone of this object</param>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnExportAudio(Artifice.ExportAudioContext)">
+ <summary>
+ OnExportAudio
+ </summary>
+ <param name="context">The context to export with</param>    
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnGetBounds">
+ <summary>
+ Called internally to have descendant classes calculate their bounds.
+ </summary>
+ <returns>A RectangleF representing the bounds of this object, in World units</returns>
+ <remarks>By default, returns the union of all children bounds</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnHitTest(System.Single,System.Single,Artifice.RenderContext,System.Drawing.Point@)">
+ <summary>
+ Called internally so descendant classes can perform a hit test
+ </summary>
+ <param name="x">The x coordinate, in World units</param>
+ <param name="y">The y coordinate, in World units</param>
+ <param name="rc">The render context used to transform units</param>
+ <param name="transformedLocation">The original coordinates, transformed into World units</param>
+ <returns>The ArtificeObject at the given location, or Nothing if none is found</returns>
+ <remarks>By default automatically calls HitTest for each child</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnLoad(System.Xml.Linq.XElement)">
+ <summary>
+ Called internally to allow derived classes to load special fields from Xml
+ </summary>
+ <param name="el">The XElement to load this ArtificeObject's properties from</param>
+ <remarks>Hanlded by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnRender(Artifice.RenderContext)">
+ <summary>
+ Called when a ArtificeObject needs to render itself
+ </summary>
+ <param name="rc">The render context to use for rendering</param>
+ <remarks>By default calls Render on this object's children.</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnSave(System.Xml.Linq.XElement)">
+ <summary>
+ Called when descendant classes need to write special data to Xml
+ </summary>
+ <param name="el">The XElement to write properties to</param>
+ <remarks>Handled by derived classes</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.OnSaveAsSVG">
+ <summary>
+ Called when descendant classes are needed to export to SVG
+ </summary>
+ <returns>An array of XElement objects corresponding to SVG nodes</returns>
+ <remarks>By default this calls ToSVG for each child</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.Remove">
+ <summary>
+ Removes this ArtificeObject from its parent
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.RemoveChild(Artifice.ArtificeObject)">
+ <summary>
+ Removes the given child from this ArtificeObject's list of children
+ </summary>
+ <param name="child">The ArtificeObject to remove</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.Render(Artifice.RenderContext)">
+ <summary>
+ Renders this ArtificeObject
+ </summary>
+ <param name="rc">The render context to use for rendering</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.ResetIdCounter(System.Int32)">
+ <summary>
+ Resets the internal id counter to the given value
+ </summary>
+ <param name="newValue">The new value to reset the id counter to</param>
+ <remarks>This can only be called by ArtificeObjects of type Project</remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.SendBackward">
+ <summary>
+ Moves this object one step lower in its Parent's list of children
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.SendToBack">
+ <summary>
+ Sends this ArtificeObject to the bottom of its parents list
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.ToSVG">
+ <summary>
+ Returns this ArtificeObject in SVG format
+ </summary>
+ <returns>An array of XElements containing valid SVG nodes (or an empty list)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.ToXElement">
+ <summary>
+ Returns this ArtificeObject as an XElement for writing to a .Artifice file
+ </summary>
+ <returns>An XElement representation of this ArtificeObject</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.ToString">
+ <summary>
+ Converts this object to a string
+ </summary>
+ <returns>A string describing this object</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.Translate(System.Drawing.Point,Artifice.RenderContext)">
+ <summary>
+ Translates the given point from Device space to World space
+ </summary>
+ <param name="pt">The point to convert</param>
+ <param name="rc">The render context used to transform the points</param>
+ <returns>The transformed point, in World coordinates</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.ArtificeObject.ArtificeObject_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Internally bubbles all events up through the hierarchy
+ </summary>
+ <param name="sender">The object that fired the original event</param>
+ <param name="e">The details of the PropertyChangedEvent</param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.Project">
+ <summary>
+ The root object in the Artifice DOM
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.Project.Dirty">
+ <summary>
+ Returns True if there have been changes to the DOM since the last save, False otherwise
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Project.FileName">
+ <summary>
+ The internal filename for this Artifice project
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Project.FramesPerSecond">
+ <summary>
+ The Frames per Second (FPS) of this animation
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Project.StageHeight">
+ <summary>
+ The height of this project's stage, in Pixels
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.Project.StageWidth">
+ <summary>
+ The width of this project's stage, in Pixels
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Project.FromFile(System.String)">
+ <summary>
+ Creates a Project object by loading it from the given file
+ </summary>
+ <param name="fileName">The .Artifice file to load</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Project.Save">
+ <summary>
+ Saves the Project to the project file
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Project.SaveAs(System.String)">
+ <summary>
+ Saves the Project to the given file
+ </summary>
+ <param name="newFileName">The name of the new file to save to</param>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.Project.Project_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+ <summary>
+ Internally responds to bubbled change events and alters the Dirty flag accordingly
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.ArtificeTransformable">
+ <summary>
+ The abstract base class for all visual objects that can be scaled and rotated
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.ArtificeTransformable.Rotation">
+ <summary>
+ The rotation (in degrees) of this object
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeTransformable.ScaleX">
+ <summary>
+ The scale of the x-coordinates
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.ArtificeTransformable.ScaleY">
+ <summary>
+ The scale of the y-coordinates
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.VectorObject">
+ <summary>
+ A single vector graphic object object
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.VectorObject.Path">
+ <summary>
+ The Path instance
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.VectorObject.BuildPath">
+ <summary>
+ Constructs the internal GraphicsPath from the child VectorPoints of this object
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Artifice.VectorObject.SetPath(System.Drawing.Drawing2D.GraphicsPath)">
+ <summary>
+ Sets the child VectorPoints of this object to the points of the given path:
+ </summary>
+ <param name="gp"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Artifice.VectorPoint">
+ <summary>
+ A single point in a VectorObject
+ </summary>
+ <remarks>Created by Autodev</remarks>
+</member>
+<member name="P:Artifice.VectorPoint.PointType">
+ <summary>
+ The GraphicsPath PointType value
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Artifice.VectorPoint.ControlPoint">
+ <summary>
+ True if this point is a Bezier curve control point, False otherwise
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
